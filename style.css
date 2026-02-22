@@ -1,0 +1,111 @@
+body , html
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    flex:1 0 auto;
+    font-family: 'Roboto';
+    
+    
+    
+    
+    
+}
+.header, .layerthree ,.layerfour ,.layerfive ,.footer
+{
+    display:flex;
+    flex-grow: 1;
+    align-items: center;
+}
+/* Editing the fist layer header+hero */
+.header
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    
+
+}
+.hero
+{ 
+    font-size: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-links
+{
+    display: flex;
+    flex-direction:row;
+    gap: 16px;
+}
+
+.layertwo
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* Editing the boxes with some random information */
+.layerthree
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.toptext
+{
+    align-self: center;
+}
+.boxes
+{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+
+}
+
+/* Layer four The quote section */
+.layerfour
+{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: flex-end;
+    
+    
+}
+#quote
+{
+    
+}
+#quoter
+{
+ align-self: flex-end;
+}
+
+/* Layer four The quote section */
+
+/* Layer five the sign section */
+
+
+
+
+
+
+
+
+.footer
+{ flex-shrink:0;
+    flex-grow: 0;
+    padding: 20px;
+    margin: auto;
+    
+
+}
